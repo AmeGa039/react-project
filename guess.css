@@ -1,0 +1,37 @@
+.guess-name {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.guess-input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.guess-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.guess-button:hover {
+    background-color: #0056b3;
+}
+
+.mesazhi {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .guess-input,
+    .guess-button {
+        width: 100%;
+    }
+}
